@@ -3,10 +3,17 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ada Nakliyat | Konya Nakliyat ve Yük Taşıma",
-  description: "Ada Nakliyat ile Konya şehir içi ve şehirler arası yük taşıma hizmetleri. Telefon veya WhatsApp üzerinden doğrudan iletişime geçin.",
-  keywords: ["Konya nakliyat", "Konya yük taşıma", "Konya şehirler arası nakliyat", "Ada Nakliyat"],
+  description: "Ada Nakliyat ile Konya şehir içi ve şehirler arası gidiş-dönüş, parsiyel ve komple yük taşımacılığı. Sigortalı ve güvenli taşıma için iletişime geçin.",
+  keywords: ["Konya nakliyat", "Konya yük taşıma", "Konya şehirler arası nakliyat", "Konya parsiyel yük", "Konya komple yük", "Ada Nakliyat"],
+  openGraph: {
+    title: "Ada Nakliyat | Konya Yük Taşıma",
+    description: "Şehir içi ve şehirler arası parsiyel veya komple yüklerinizi sigortalı ve güvenli şekilde taşıyoruz.",
+    locale: "tr_TR",
+    type: "website",
+    images: [{ url: "/ada-tir-hero.jpeg", width: 1080, height: 1094, alt: "Ada Nakliyat yük taşıma aracı" }],
+  },
   other: { "codex-preview": "development" },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: "/ada-mark.svg", shortcut: "/ada-mark.svg", apple: "/ada-mark.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96" role="img" aria-labelledby="title desc">
+  <title id="title">Ada Nakliyat logosu</title>
+  <desc id="desc">Turuncu zemin üzerinde yol çizgisi taşıyan A simgesi ve Ada Nakliyat yazısı</desc>
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="#ff6b21"/>
+  <path d="M22 70 43 22h10l22 48H62l-5-12H39l-5 12H22Zm21-23h10l-5-13-5 13Z" fill="#fff"/>
+  <path d="M48 28v8m0 8v8" stroke="#071827" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="76" cy="73" r="4" fill="#fff"/>
+  <path d="M59 68h19l7 5" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <text x="112" y="50" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="800" letter-spacing="7">ADA</text>
+  <text x="114" y="72" fill="#aeb9c1" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="7">NAKLİYAT</text>
+</svg>
