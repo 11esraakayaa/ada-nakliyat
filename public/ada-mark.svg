@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Ada Nakliyat">
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="#ff6b21"/>
+  <path d="M22 70 43 22h10l22 48H62l-5-12H39l-5 12H22Zm21-23h10l-5-13-5 13Z" fill="#fff"/>
+  <path d="M48 28v8m0 8v8" stroke="#071827" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="76" cy="73" r="4" fill="#fff"/>
+  <path d="M59 68h19l7 5" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</svg>
