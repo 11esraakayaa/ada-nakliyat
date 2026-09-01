@@ -51,7 +51,7 @@ export default function Home() {
       <header className="site-header">
         <div className="header-inner">
           <a className="brand" href="#anasayfa" aria-label="Ada Nakliyat ana sayfa">
-            <Image className="brand-logo" src="/ada-logo-light.svg" width={180} height={48} alt="Ada Nakliyat" priority />
+            <Image className="brand-logo" src="/logo.png" width={180} height={48} alt="Ada Nakliyat" priority />
           </a>
           <nav className="main-nav" aria-label="Ana menü">
             <a href="#hizmetler">Hizmetler</a><a href="#araclarimiz">Araçlarımız</a><a href="#hakkimizda">Hakkımızda</a><a href="#iletisim">İletişim</a>
