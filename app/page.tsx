@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer><div className="container footer-inner"><a className="brand footer-brand" href="#anasayfa"><Image className="brand-logo" src="/ada-logo-light.svg" width={180} height={48} alt="Ada Nakliyat" /></a><p>Konya şehir içi ve şehirler arası nakliyat.</p><small>© 2026 Ada Nakliyat</small></div></footer>
+      <footer><div className="container footer-inner"><a className="brand footer-brand" href="#anasayfa"><Image className="brand-logo" src="/logo.png" width={180} height={48} alt="Ada Nakliyat" /></a><p>Konya şehir içi ve şehirler arası nakliyat.</p><small>© 2026 Ada Nakliyat</small></div></footer>
 
       <nav className="mobile-contact-bar" aria-label="Hızlı iletişim">
         <a href={CONTACT.phoneHref}><Icon name="phone" /><span>Ara</span></a>
