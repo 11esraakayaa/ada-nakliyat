@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     images: [{ url: "/ada-tir-hero.jpeg", width: 1080, height: 1094, alt: "Ada Nakliyat yük taşıma aracı" }],
   },
   other: { "codex-preview": "development" },
-  icons: { icon: "/ada-mark.svg", shortcut: "/ada-mark.svg", apple: "/ada-mark.svg" },
+  icons: { icon: "/logo.png", shortcut: "/logo.png", apple: "/logo.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
