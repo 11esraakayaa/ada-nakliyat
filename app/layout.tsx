@@ -18,19 +18,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return 
+  return (
     <html lang="tr">
-      <body>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGSQYQY55R">
-          </script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-             gtag('config', 'G-BGSQYQY55R');
-          </script>
-        {children}
-      </body>
-    </html>;
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BGSQYQY55R"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-BGSQYQY55R');
+            `,
+          }}
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
 }
